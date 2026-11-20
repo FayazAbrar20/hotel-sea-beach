@@ -145,7 +145,7 @@
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Name = "loginpage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Hotel Paradise-Login";
+            this.Text = "Hotel Sea Beach - Login";
             this.Load += new System.EventHandler(this.loginpage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

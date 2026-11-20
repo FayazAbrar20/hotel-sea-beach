@@ -71,6 +71,8 @@ sqlcmd -S .\SQLEXPRESS -E -C -i database\create-database.sql
 
 Upgrading a database from the earlier version of this app? Run `database/migrate.sql` instead.
 
+**Optional: load demo data.** Run `database/seed-demo-data.sql` the same way to add sample rooms, bookings and accounts. Demo Employee `rahim.k` and Customer `arif.chowdhury` both use the password `Password123`.
+
 ### 2. Build and run
 **With Visual Studio:** open `hotelseabeach.sln` and press **F5**.
 
