@@ -30,6 +30,7 @@ namespace hotelseabeach
         public clientpage()
         {
             InitializeComponent();
+            Theme.Apply(this, "Customer");
             // Screens are swapped by hiding them, so closing the open window with X must end the whole app.
             FormClosed += (s, e) => Application.Exit();
         }

@@ -10,6 +10,7 @@ namespace hotelseabeach
         public loginpage()
         {
             InitializeComponent();
+            Theme.Apply(this, "Login");
             // Screens are swapped by hiding them, so closing the open window with X must end the whole app.
             FormClosed += (s, e) => Application.Exit();
         }

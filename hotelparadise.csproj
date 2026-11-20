@@ -57,6 +57,7 @@
     <Compile Include="Db.cs" />
     <Compile Include="PasswordHasher.cs" />
     <Compile Include="SignupValidator.cs" />
+    <Compile Include="Theme.cs" />
     <Compile Include="Employeeform.cs">
       <SubType>Form</SubType>
     </Compile>

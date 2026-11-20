@@ -10,6 +10,7 @@ namespace hotelseabeach
         public registrationpage()
         {
             InitializeComponent();
+            Theme.Apply(this, "Register");
             // Screens are swapped by hiding them, so closing the open window with X must end the whole app.
             FormClosed += (s, e) => Application.Exit();
             textBox4.UseSystemPasswordChar = true;   // hide the password while typing

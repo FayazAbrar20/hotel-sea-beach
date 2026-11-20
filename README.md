@@ -2,10 +2,11 @@
 
 A Windows desktop application for running a small hotel: user accounts with roles, room management and room booking. Built with **C# (Windows Forms, .NET Framework 4.8)** and **Microsoft SQL Server**.
 
-<!-- Add screenshots here, e.g.:
-![Login](docs/login.png)
-![Booking](docs/booking.png)
--->
+| Login | Manager |
+|---|---|
+| ![Login](screenshots/login.png) | ![Manager](screenshots/manager.png) |
+| **Employee** | **Customer** |
+| ![Employee](screenshots/employee.png) | ![Customer](screenshots/customer.png) |
 
 ## Features
 
@@ -91,7 +92,8 @@ Employeeform.cs       Employee screen: rooms
 clientpage.cs         Customer screen: rooms, price, booking
 PasswordHasher.cs     PBKDF2 password hashing and verification
 Db.cs                 Database connection from App.config
-database/             create-database.sql, migrate.sql
+database/             create-database.sql, migrate.sql, seed-demo-data.sql
+screenshots/          README images
 build.bat             Build without Visual Studio
 ```
 
